@@ -63,8 +63,8 @@ export class RestaurantInput extends Component {
 
 const mapDispatchToProps = dispatch => {
     return {
-     manageRestaurants: (restaurant) => {
-        dispatch(manageRestaurants(restaurant))
+     addRestaurant: (restaurant) => {
+        dispatch(addRestaurant(restaurant))
       }
     }
 }
